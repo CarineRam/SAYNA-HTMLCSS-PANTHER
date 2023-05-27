@@ -1,0 +1,438 @@
+@font-face {
+    font-family: "Beyno";
+    src: url(Font/BEYNO.otf) format('otf');
+}
+@font-face {
+    font-family: 'WakandaForever';
+    src: url(Font/WakandaForever-Regular.ttf) ;
+}
+@font-face {
+    font-family: 'CantarellRegular';
+    src: url(Font/Cantarell-Regular.ttf) ;
+}
+@font-face {
+    font-family: 'Panthera';
+    src: url(Font/PantheraRegular.ttf) ;
+}
+@media screen and (max-width: 1499px){
+    body{
+        width: 90%;
+        font-size: 0.9em;
+    }
+}
+header{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logosayna{
+    position: relative;
+    left: 120px;
+    top: 7px;
+}
+.iconX{
+    position: relative;
+    left: 125px;
+}
+.logomarvel{
+    position: relative;
+    left: 132px;
+    top: 7px;
+}
+.accueil{
+    font-family: 'Beyno', sans-serif;
+    color:white;
+    position : relative;
+    left: 55%;
+    font-size: 20px;
+    text-decoration: none;
+}
+.wakanda{
+    font-family: 'Beyno', sans-serif;
+    color:white;
+    position : relative;
+    left: 60%;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.enigme{
+    font-family: 'Beyno', sans-serif;
+    color:white;
+    position : relative;
+    left: 65%;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    background-image: url(IllustrationsLogo/All\ pages/arrière_plan.png);
+}
+.aside{
+    position: relative;
+    left: 60px;
+    top: 200px;
+}
+.icon{
+    margin-bottom: 25px;
+}
+.grandeImage{
+    position: absolute;
+    left: 40%;
+    top: 150px;
+    
+}
+/*.accueil:link{
+    color:#9e91b7;
+}*/
+h1{
+    font-family: 'Panthera', sans-serif;
+    color: #9e91b7;
+    font-size: 68px;
+    position: absolute;
+    left: 230px;
+    top: 200px;
+}
+h2{
+    position: relative;
+    font-family: 'Beyno', sans-serif;
+    color: #9e91b7;
+    font-size: 32px;
+    left: 220px;
+    top: 60px;
+}
+.black_panther .texte_black_panther{
+    color: white;
+    font-family: 'CantarellRegular', sans-serif;
+    left: 220px;
+    top: 65px;
+    position: relative;
+    text-align: justify;
+    width: 25%;
+}
+/* Zone personnages */
+.bloc{
+    width: 1650px;
+    height: 300px;
+    background-color: #021740;
+    position: absolute;
+    top: 80%;
+    left: 16%;
+}
+.personnage .killmonger .perso_texte{
+    color: white;
+    position: absolute;
+    left: 805px;
+    top: 87%;
+    width: 15%;
+    font-family: 'CantarellRegular', sans-serif;
+    text-align: justify;
+}
+.personnage .killmonger .killmonger_image{
+    position: relative;
+    top: 270px;
+    left: 23%;
+}
+.black_panther .texte_black_panther a{
+    color: white;
+}
+.personnage .killmonger a{
+    color: white;
+}
+.personnage .killmonger h2{
+    position: absolute;
+    left: 805px;
+    top: 81%;
+}
+.personnage .okoye .perso_texte{
+    color: white;
+    position: absolute;
+    left: 1415px;
+    top: 88%;
+    width: 15%;
+    font-family: 'CantarellRegular', sans-serif;
+    text-align: justify;
+}
+.personnage .okoye h2{
+    position: absolute;
+    left: 1415px;
+    top: 82%;
+}
+.personnage .okoye a{
+    color: white;
+}
+.personnage .okoye .okoye_image{
+    position: absolute;
+    top: 768px;
+    left: 59%;
+}
+.personnage .dernier_perso_image{
+    position: absolute;
+    top: 768px;
+    left: 91%;
+}
+main .section_naissance h2{
+    left:350px;
+    top: 400px;
+    position: relative;
+}
+main .section_naissance p{
+    left:350px;
+    top: 400px;
+    position: relative;
+    color: white;
+    font-family: 'CantarellRegular', sans-serif;
+    width: 40%;
+    text-align: justify;
+    font-size: 16px;
+}
+main .section_naissance .citation{
+    font-size: 14px;
+}
+main .section_heros h2{
+    left:350px;
+    top: 400px;
+    position: relative;
+}
+main .section_heros p{
+    left:350px;
+    top: 400px;
+    position: relative;
+    color: white;
+    font-family: 'CantarellRegular', sans-serif;
+    width: 40%;
+    text-align: justify;
+    font-size: 16px;
+}
+main .section_heros .citation{
+    font-size: 14px;
+}
+main .section_protecteur_justicier .citation{
+    font-size: 14px;
+}
+main .section_protecteur_justicier p{
+    left:350px;
+    top: 400px;
+    position: relative;
+    color: white;
+    font-family: 'CantarellRegular', sans-serif;
+    width: 40%;
+    text-align: justify;
+    font-size: 16px;
+}
+main .section_protecteur_justicier h2{
+    left:350px;
+    top: 400px;
+    position: relative;
+}
+main .section_acteur .image_acteur{
+    position: absolute;
+    left: 1320px;
+    top: 1170px;
+}
+main .section_acteur .bloc1{
+    height: 700px;
+    width: 450px;
+    background-color: white;
+    left: 1275px;
+    top: 1430px;
+    position: absolute;
+    border-radius: 10px;
+}
+main .section_acteur p{
+    color: black;
+    font-family: 'Cantarell', sans-serif;
+    
+}
+main .section_acteur .bold{
+    font-weight: bold;
+}
+main .section_acteur #nom_perso{
+    position: absolute;
+    left: 1460px;
+    top: 1670px;
+    font-size: 20px;
+}
+main .section_acteur .situation{
+    position: absolute;
+    left: 1330px;
+    top: 1735px;
+    
+    
+}
+main .section_acteur .situation .situation_acteur{
+    color: white;
+    margin-right: 20px;
+    background-color: #3d2da6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px; 
+}
+main .section_acteur .about_acteur{
+    position: absolute;
+    left: 1330px;
+    top: 1835px;
+    width: 20%;
+    line-height: 2;
+    
+    
+}
+main .section_acteur .image_pantherhome6{
+    position: absolute;
+    left: 1250px;
+    top: 2200px;
+}
+main .section_contacter img{
+    position: absolute;
+    top: 2800px;
+}
+main .section_contacter .formulaire_contacter{
+    background-image: linear-gradient(to bottom, white, transparent);
+    height: 800px;
+    width: 1000px;
+    position: absolute;
+    top: 3000px;
+    left: 24%;
+    text-align: center;
+    border-radius: 25%;
+}
+main .section_contacter .formulaire_contacter .question{
+    font-family: 'CantarellRegular', sans-serif;
+    font-size: 18px;
+    margin-top: 65px;
+}
+main .section_contacter .formulaire_contacter .contactez_nous{
+    font-family: 'CantarellRegular', sans-serif;
+    font-size: 50px;
+    margin-top: 15px; 
+}
+main .section_contacter .formulaire_contacter .nom{
+    font-size: 16px;
+    margin-top: 10px;
+    height: 45px;
+    width: 500px;
+    border-radius: 25px; 
+    background-color: transparent; 
+}
+main .section_contacter .formulaire_contacter .nom::placeholder{
+    font-family: 'CantarellRegular', sans-serif;
+    padding-left: 20px;
+    color: black;
+}
+main .section_contacter .formulaire_contacter .email{
+    font-size: 16px;
+    margin-top: 30px;
+    height: 45px;
+    width: 500px;
+    border-radius: 25px; 
+    background-color: transparent; 
+}
+main .section_contacter .formulaire_contacter .email::placeholder{
+    font-family: 'CantarellRegular', sans-serif;
+    padding-left: 20px;
+    color: black;
+}
+main .section_contacter .formulaire_contacter .message{
+    font-size: 16px;
+    margin-top: 30px;
+    height: 200px;
+    width: 500px;
+    border-radius: 25px; 
+    background-color: transparent; 
+}
+main .section_contacter .formulaire_contacter .message::placeholder{
+    font-family: 'CantarellRegular', sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: black;
+}
+main .section_contacter .formulaire_contacter .btn{
+    font-size: 16px;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px; 
+    background-color: white; 
+}
+footer .background_footer{
+    position: absolute;
+    top: 4100px;
+}
+footer .marvel_part{
+    position: absolute;
+    top: 4300px;
+    left: 100px;
+}
+footer .marvel_part .marvel_part_image{
+    position: absolute;  
+    left: 300px;
+} 
+footer .logo_footer{
+    position: absolute;
+    top: 175px;
+    left : 390px;
+}
+footer .pages{
+    font-family: 'CantarellRegular', sans-serif;
+    position: absolute;
+    top: 4300px;
+    left: 850px;
+    color: white;
+    text-decoration: none;
+}
+footer .pages p{
+    
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+footer .pages .propos{
+    
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+    line-height: 2.5;
+    
+}
+footer .pages .footer_wakanda{
+    
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+}
+footer .retrouvez_nous{
+    position: absolute;
+    font-family: 'CantarellRegular', sans-serif;
+    top: 4300px;
+    left: 1300px;
+    color: white;
+    text-decoration: none;
+}
+footer .retrouvez_nous p{
+    font-family: 'CantarellRegular', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+footer .retrouvez_nous .icon_fb{
+    position: absolute;
+}
+footer .retrouvez_nous .icon_ig{
+    position: absolute;
+    left: 70px;
+}
+footer .retrouvez_nous .icon_tw{
+    position: absolute;
+    left: 140px;
+}
+footer .retrouvez_nous .icon_tt{
+    position: absolute;
+    left: 210px;
+}
+footer .droit{
+    font-family: 'CantarellRegular', sans-serif;
+    color: white;
+    top: 4600px;
+    left: 850px;
+    position: absolute;
+}
+
+

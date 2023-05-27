@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "Beyno";
+    src: url(Font/BEYNO.otf) format('otf');
+}
+@font-face {
+    font-family: 'WakandaForever';
+    src: url(Font/WakandaForever-Regular.ttf) ;
+}
+@font-face {
+    font-family: 'CantarellRegular';
+    src: url(Font/Cantarell-Regular.ttf) ;
+}
+@font-face {
+    font-family: 'Panthera';
+    src: url(Font/PantheraRegular.ttf) ;
+}
+@media screen and (max-width: 1499px){
+    body{
+        width: 90%;
+        font-size: 0.9em;
+    }
+}
+header{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logosayna{
+    position: relative;
+    left: 120px;
+    top: 7px;
+}
+.iconX{
+    position: relative;
+    left: 125px;
+}
+.logomarvel{
+    position: relative;
+    left: 132px;
+    top: 7px;
+}
+.accueil{
+    font-family: 'Beyno', sans-serif;
+    color:white;
+    position : relative;
+    left: 55%;
+    font-size: 20px;
+    text-decoration: none;
+}
+.wakanda{
+    font-family: 'Beyno', sans-serif;
+    color:white;
+    position : relative;
+    left: 60%;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.enigme{
+    font-family: 'Beyno', sans-serif;
+    color:white;
+    position : relative;
+    left: 65%;
+    font-size: 20px;
+    text-decoration: none;
+}
+body{
+    background-image: url(IllustrationsLogo/All\ pages/arrière_plan.png);
+}
+.icon{
+    margin-bottom: 25px;
+}
+
+/*.accueil:link{
+    color:#9e91b7;
+}*/
+h1{
+    font-family: 'Beyno', sans-serif;
+    color: #9e91b7;
+    font-size: 65px;
+    position: absolute;
+    left: 13%;
+    top: 180px;
+    width: 780px;
+    text-align: justify;
+}
+h2{
+    position: absolute;
+    font-family: 'WakandaForever', sans-serif;
+    color: #9e91b7;
+    font-size: 43px;
+    left: 250px;
+    top: 300px;
+    width: 1000px;
+    text-align: justify;
+    letter-spacing: 10px;
+}
+h3{
+    color: #9e91b7;
+    font-size: 30px;
+    font-family: 'Beyno', sans-serif;
+}
+.wakanda_forever .texte_wakanda_forever{
+    color: white;
+    font-family: 'CantarellRegular', sans-serif;
+    left: 13%;
+    top: 510px;
+    position: absolute;
+    text-align: justify;
+    width: 25%;
+    line-height: 2;
+}
+.wakanda_forever .grande_image{
+    position: absolute;
+    top: 7%;
+}
+.contenu_gauche{
+    position: absolute;
+    width: 680px;
+    font-size: 16px;
+    text-align: justify;
+    top: 1150px;
+    left: 260px;
+}
+.contenu_gauche p{
+    font-family: 'CantarellRegular', sans-serif;
+    color: white;
+}
+
+.contenu_droite{
+    position: absolute;
+    width: 680px;
+    font-size: 16px;
+    text-align: justify;
+    top: 1150px;
+    left: 1060px;
+}
+.contenu_droite p{
+    font-family: 'CantarellRegular', sans-serif;
+    color: white;
+}
+main .contenu_droite .citation{
+    font-size: 14px;
+}
+
+footer .background_footer{
+    position: absolute;
+    top: 3400px;
+}
+footer .marvel_part{
+    position: absolute;
+    top: 3600px;
+    left: 100px;
+}
+footer .marvel_part .marvel_part_image{
+    position: absolute;  
+    left: 300px;
+} 
+footer .logo_footer{
+    position: absolute;
+    top: 175px;
+    left : 390px;
+}
+footer .pages{
+    font-family: 'CantarellRegular', sans-serif;
+    position: absolute;
+    top: 3600px;
+    left: 850px;
+    color: white;
+    text-decoration: none;
+}
+footer .pages p{
+    
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+footer .pages .propos{
+    
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+    line-height: 2.5;
+    
+}
+footer .pages .footer_wakanda{
+    
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+}
+footer .retrouvez_nous{
+    position: absolute;
+    font-family: 'CantarellRegular', sans-serif;
+    top: 3600px;
+    left: 1300px;
+    color: white;
+    text-decoration: none;
+}
+footer .retrouvez_nous p{
+    font-family: 'CantarellRegular', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+footer .retrouvez_nous .icon_fb{
+    position: absolute;
+}
+footer .retrouvez_nous .icon_ig{
+    position: absolute;
+    left: 70px;
+}
+footer .retrouvez_nous .icon_tw{
+    position: absolute;
+    left: 140px;
+}
+footer .retrouvez_nous .icon_tt{
+    position: absolute;
+    left: 210px;
+}
+footer .droit{
+    font-family: 'CantarellRegular', sans-serif;
+    color: white;
+    top: 3800px;
+    left: 850px;
+    position: absolute;
+}
